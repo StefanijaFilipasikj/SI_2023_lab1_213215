@@ -1,0 +1,60 @@
+git init -> Inicializiranje na lokalniot folder
+git remote -v -> Za proverka dali sme povrzani na nekoj repozitorium
+git remote add origin https://github.com/StefanijaFilipasikj/SI_2023_lab1_213215.git -> Za (push) (fetch) na repoto
+
+Dodavam README.md file i 213215.txt za vodenje dokumentacija
+git add README.md -> Na edinstveniot file koj sakam da go pushnam mu go menuvam statusot od Untracked vo Modified
+git commit -m "Initial commit" -> Istiot go spremam za push
+git push origin master -> pushnuvanje na file-ot README.md
+
+Kreiranje na SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+git push origin master
+
+Za sinhronizacija na grankite se upotrebuva git pull origin master no bidejki nie pushnuvame se e sinhronizirano
+
+git checkout -b bug1 -> kreiranje i otvaranje na nova granka bug1
+git checkout master -> vrakjanje na master
+git checkout -b bug2 -> kreiranje i otvaranje na nova granka bug2
+git checkout master -> vrakjanje na master
+git checkout -b bug3 -> kreiranje i otvaranje na nova granka bug3
+git checkout master -> vrakjanje na master
+
+git checkout bug1 -> prefrlanje na grankata 
+Popravanje na greskata vo for ciklusot za citanje na N broevi
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+
+git checkout bug2 -> prefrlanje na grankata 
+Popravanje na greskata vo funkcijata filterOddNumbers
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+git checkout bug3 -> prefrlanje na grankata 
+Popravanje na greskata vo funkcijata sumEvenNumbers
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+
+git push origin bug3
+
+git checkout bug2
+git push origin bug2
+
+git checkout bug1
+git push origin bug1
+
+git checkout master
+git push origin master
+
+git checkout bug3
+git rebase master
+
+git checkout master
+git merge bug3 -> merge bez --force tuku upotrebuvanje na -ff (fast-forward)
+
+Kreiranje na logs.txt
+fajlot 213215.txt za vodenje dokumentacija go kreirav na pocetok
+
+git add . -> menuvanje na statusot na logs.txt i 213215.txt od Untracked vo Modified 
+git commit -m "Final commit"
