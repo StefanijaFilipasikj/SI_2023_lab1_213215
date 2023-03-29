@@ -1,0 +1,48 @@
+commit da61bdd9b7a69bc21fd46d25cc39436377f7a006 (HEAD -> master, bug3)
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 19:48:02 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit e0b6825f78a96e553ae2280014adcf0676c8cf8c (origin/master)
+Merge: 3c6927d 1264402
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 19:56:24 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 126440255d5739d8ecc1fc4075df169a0b65cce6 (origin/bug2, bug2)
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 19:46:07 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 3c6927d723ed57a047e0177901bd936a1a1ebf45 (origin/bug1, bug1)
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 19:33:46 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 4cbfdc410af54096b695ab578ad55beb5ad217bf
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 19:09:05 2023 +0200
+
+    Add java class
+
+commit 1281d2aaf1757c1654b6b1e94f5f40381edd4c05
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 19:01:00 2023 +0200
+
+    Initial commit
+
+commit 7af9a852ab912c982142ad9cd8f71eace5cee95c
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 18:50:06 2023 +0200
+
+    Initial commit
+
+commit b4331bc973bd7fae3046ec14701f270773501b55
+Author: Stefanija Filipasikj <stefanija.filipashikj@students.finki.ukim.mk>
+Date:   Wed Mar 29 18:35:18 2023 +0200
+
+    Initial commit
